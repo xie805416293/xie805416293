@@ -22,6 +22,7 @@ export default {
             if (num2 + 1 > 100) {
                 return num;
             } else {
+                
                 return this.fun(num, num2 + 1)
             }
         }
