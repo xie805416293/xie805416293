@@ -13,6 +13,7 @@
 </template>
 <script>
 import objFun from './number';
+
 import { mapState, mapGetters , mapActions, mapMutations} from 'vuex';
 export default {
     created () {
@@ -23,7 +24,7 @@ export default {
     },
     computed: {
         ...mapState('user', ['show'])
-        
+
     },
     methods: {
         gotoPage() {
