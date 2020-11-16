@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false;
-window.nihao = '你好';
+window.userName = 'vue';
 new Vue({
   router,
   store,
