@@ -23,6 +23,7 @@ export default {
     },
     computed: {
         ...mapState('user', ['show'])
+        
     },
     methods: {
         gotoPage() {
