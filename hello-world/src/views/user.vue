@@ -18,6 +18,7 @@ import { mapState, mapGetters , mapActions, mapMutations} from 'vuex';
 
 export default {
     created () {
+        
         const str = this.$route;
         const org = this.fun(1, 2);
         console.log(this.show,'show');
